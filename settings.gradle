@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "data_collection_app_android"

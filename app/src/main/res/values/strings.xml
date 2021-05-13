@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">data_collection_app_android</string>
+    <string name="capture">Capture</string>
+
+
+    <string-array name="crop_arr">
+        <item>cassava</item>
+        <item>potato</item>
+        <item>sweet-potato</item>
+        <item>maize</item>
+    </string-array>
+
+
+    <string-array name="dis_cassava_arr">
+        <item>brown_leaf_spot</item>
+        <item>brown_streak_disease</item>
+        <item>green_mite_damage</item>
+        <item>healthy</item>
+        <item>mosaic_disease</item>
+        <item>nutrition_deficiency</item>
+        <item>red_mite_damage</item>
+    </string-array>
+
+    <string-array name="dis_potato_arr">
+        <item>early_blight</item>
+        <item>late_blight</item>
+        <item>virus</item>
+        <item>healthy</item>
+    </string-array>
+
+    <string-array name="dis_sweet_potato_arr">
+        <item>virus</item>
+        <item>healthy</item>
+    </string-array>
+
+    <string-array name="dis_maize_arr">
+        <item>maize_lethal_necrosis</item>
+        <item>fall_armyworm</item>
+        <item>healthy</item>
+    </string-array>
+
+
+</resources>

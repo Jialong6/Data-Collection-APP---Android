@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+
+<TextView
+    android:id="@+id/crop_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="100dp"
+    android:fontFamily="sans-serif-black"
+    android:text="Crop"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Spinner
+    android:id="@+id/crop_sp"
+    android:layout_width="210dp"
+    android:layout_height="28dp"
+    android:layout_marginTop="100dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/crop_tv"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<TextView
+    android:id="@+id/disease_tv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="50dp"
+    android:fontFamily="sans-serif-black"
+    android:text="Disease"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/crop_tv" />
+
+<Spinner
+    android:id="@+id/disease_sp"
+    android:layout_width="210dp"
+    android:layout_height="28dp"
+    android:layout_marginStart="28dp"
+    android:layout_marginLeft="28dp"
+    android:layout_marginTop="48dp"
+    app:layout_constraintStart_toEndOf="@+id/disease_tv"
+    app:layout_constraintTop_toBottomOf="@+id/crop_sp" />
+
+<Button
+    android:id="@+id/goCamera_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="266dp"
+    android:layout_marginLeft="266dp"
+    android:layout_marginTop="200dp"
+    android:layout_marginEnd="57dp"
+    android:layout_marginRight="57dp"
+    android:text="Camera"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.26" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
